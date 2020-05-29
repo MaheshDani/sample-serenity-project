@@ -40,7 +40,7 @@
         <checkstyle.basedir>${project.basedir}</checkstyle.basedir>
         <checkstyle.config.location>${project.basedir}/checkstyle.xml</checkstyle.config.location>
         <checkstyle.suppressions.location>${project.basedir}/checkstyle-suppressions.xml</checkstyle.suppressions.location>
-        <puppycrawl.checkstyle.version>7.0</puppycrawl.checkstyle.version>
+        <puppycrawl.checkstyle.version>8.29</puppycrawl.checkstyle.version>
 
         <ch.qos.logback.version>1.2.3</ch.qos.logback.version>
         <logstash-logback-encoder.version>5.3</logstash-logback-encoder.version>
