@@ -34,7 +34,7 @@
         </module>
         <module name="AvoidStarImport">
             <property name="severity" value="error"/>
-            <property name="excludes" value="uk.gov.ho.eue.applications.util.EUEConstants"/>
+            <property name="excludes" value="util.EUEConstants"/>
         </module>
         <module name="IllegalImport">
             <property name="severity" value="error"/>
