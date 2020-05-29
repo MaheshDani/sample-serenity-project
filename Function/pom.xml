@@ -381,10 +381,10 @@
                         <configuration>
                             <argLine>-Xms${jvm-min-mem} -Xmx${jvm-max-mem} -XX:MaxMetaspaceSize=${jvm-min-perm}</argLine>
                             <includes>
-                                <include>**/uk/gov/ho/cts/utils/*.java</include>
+                                <include>**/sample/project/utils/*.java</include>
                             </includes>
                             <excludes>
-                                <exclude>**/uk/gov/ho/cts/utils/DriverTest.java</exclude>
+                                <exclude>**/sample/project/utils/DriverTest.java</exclude>
                             </excludes>
                         </configuration>
                     </plugin>
