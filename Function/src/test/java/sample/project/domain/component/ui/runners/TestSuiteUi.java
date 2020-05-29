@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         tags = {""},
         plugin = {"pretty"},
         features = "classpath:features/ui/spamuitests.feature:15",
-        glue = {"uk.gov.ho.domain.component.ui.steps", "uk.gov.ho.cts.hooks"}
+        glue = {"sample.project.domain.component.ui.steps;"}
 )
 public class TestSuiteUi  {
 
