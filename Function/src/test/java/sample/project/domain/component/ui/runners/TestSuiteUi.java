@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         tags = {""},
         plugin = {"pretty"},
-        features = "classpath:features/ui/spamuitests.feature:15",
-        glue = {"sample.project.domain.component.ui.steps;"}
+        features = "classpath:features/ui/spamuitests.feature:16",
+        glue = {"sample.project.domain.component.ui.steps"}
 )
 public class TestSuiteUi  {
 
